@@ -39,11 +39,14 @@
         <!-- Start right Content here -->
         <!-- ============================================================== -->
         <div class="content-page">
-            <!-- Start content -->
-            @yield('content')
+            <div class="content">
+                <div class="container">
+                    <!-- Start content -->
+                    @yield('content')
 
-            @include('layouts.footer')
-
+                    @include('layouts.footer')
+                </div>
+            </div>
         </div>
         <!-- ============================================================== -->
         <!-- End Right content here -->

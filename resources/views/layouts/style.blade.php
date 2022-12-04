@@ -1,6 +1,10 @@
 <!-- App favicon -->
 <link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico') }}">
 
+<!-- DataTables -->
+<link href="{{ asset('assets/plugins/datatables/jquery.dataTables.min.css') }}" rel="stylesheet" type="text/css" />
+<link href="{{ asset('assets/plugins/datatables/dataTables.bootstrap.min.css') }}" rel="stylesheet" type="text/css"/>
+
 <!-- App css -->
 <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
 <link href="{{ asset('assets/css/core.css') }}" rel="stylesheet" type="text/css" />
